@@ -31,3 +31,9 @@ This is a simple chatbot implementation using Flask, NLTK (Natural Language Tool
 - Flask
 - NLTK (Natural Language Toolkit)
 - HTML/CSS/JavaScript knowledge for the web interface
+
+## Contributing
+If you would like to contribute to this project, please feel free to submit a pull request with your changes.
+
+## Acknowledgments
+This project was created as an educational example and demonstration of using the Flask and NLTK libraries to build a simple customized Chatbot. Enjoy using the URL shortener!
