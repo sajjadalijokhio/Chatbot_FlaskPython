@@ -3,7 +3,7 @@
 This is a simple chatbot implementation using Flask, NLTK (Natural Language Toolkit), HTML, CSS, and JavaScript. The chatbot can respond to user inputs with predefined patterns and provide a conversational interface through a web page.
 
 ## Acknowledgments
-This project was created as an educational example and demonstration of using the Flask and NLTK libraries to build a simple customized Chatbot. Enjoy using the ChatBuddy!
+This project was created as an educational example and demonstration, during my internship at SYNC INTERN'S, of using the Flask and NLTK libraries to build a simple customized Chatbot. Enjoy using the ChatBuddy!
 
 ## Prerequisites
 
