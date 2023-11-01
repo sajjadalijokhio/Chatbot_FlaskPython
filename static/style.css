@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+.chat-heading {
+    text-align: center;
+    font-size: 24px;
+    color: #0084ff;
+    margin: 10px 0;
+}
+
+.chat-container {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    background-color: white;
+}
+
+.chat {
+    max-height: 300px;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.chatbot-message, .user-message {
+    display: flex;
+    margin: 10px 0;
+    align-items: flex-start; /* Align message content at the top */
+}
+
+.chatbot-icon, .user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.timestamp {
+    margin-left: auto;
+    font-size: 12px;
+    color: white;
+    align-self: flex-end;
+}
+
+.user-message {
+    justify-content: flex-end;
+    align-items: flex-end; /* Align user messages to the right */
+}
+
+.user-icon {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.user-message .message-content {
+    background-color: #0084ff;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.chatbot-message .message-content {
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.user-input input {
+    width: 94%; /* Expand the input field to 100% of its container */
+    padding: 10px; /* Increase padding for better spacing */
+    border: 2px solid #0084ff; /* Add a border with a different color */
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px; /* Increase font size */
+    margin-top: 3%;
+}
+
+.user-input button {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 20px; /* Increase button padding for better clickability */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Increase font size */
+    margin-top: 3%;
+}
